@@ -5,7 +5,7 @@ const CouponPurchaseSchema = new mongoose.Schema({
 couponId: { type: String, required: true, unique: true },
 productId: { type: String, required: true },
 productName: { type: String, required: true },
-useremail: { type: String, required: true },
+useremail: { type: String, required: false },
 username: { type: String, required: false },
 productImage: { type: String },
 price: { type: Number, required: true },
